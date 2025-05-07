@@ -20,6 +20,10 @@
   color: white;
   font-weight: bold !important;
 }
+nav.navbar {
+  position: relative;
+  z-index: 1030; /* Bootstrap ka default navbar z-index */
+}
 .dropdown-menu{
   background-color: #f66e02 !important;
 }
@@ -147,4 +151,3 @@
     color: #331c0a;
 
   }
-  
